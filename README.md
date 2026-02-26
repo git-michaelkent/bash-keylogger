@@ -33,8 +33,14 @@ Handler also adds a date to every line.
    - Otherwise must have apt, apt-get, yum, dnf, pacman, or brew
  - Not a vm (didn't seem to work in my testing)
 
-# Screenshots
+# Screenshots:
+Running the program, and typing `this is a TEST`
 
+![Running](https://github.com/git-michaelkent/bash-keylogger/blob/main/screenshots/running.png)
+
+`cat` of the output file, showing captured keystrokes
+
+![Output](https://github.com/git-michaelkent/bash-keylogger/blob/main/screenshots/output.png)
 
 # Future TODO:
 - Non-evtest implementation to fully "live off the the land"
