@@ -34,7 +34,7 @@ Handler also adds a date to every line.
  - Not a vm (didn't seem to work in my testing)
 
 # Screenshots:
-Running the program, and typing `this is a TEST`
+Running the program, and typing `this is a TEST`, followed by a termination request `ctrl-c`
 
 ![Running](https://github.com/git-michaelkent/bash-keylogger/blob/main/screenshots/running.png)
 
