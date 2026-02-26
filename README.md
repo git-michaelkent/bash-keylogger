@@ -4,6 +4,13 @@ Self contained bash keylogger created for a class assignment
 # About:
 I have created a self contained bash keylogger, which not only captures keyboard inputs, but also button presses from a trackpad/mouse. When I was first brainstorming this script, I wanted it to completely "live off the land", which is why I initially chose bash. A slight hiccup in this idea was reading the /dev/input/event files. Reading raw data from event files proved too difficult for the timeframe of this assignment. This prompted me to use evtest instead, which is unfortunately not installed by default on many distros. I partly resloved this issue by automatically installing evtest if not found. I then took the approach to track *all* event files, instead of trying to determine which event files correlate to which devices. To help with clarity, logs indicate which event file they orginiate from.
 
+# Assignment Instructions:
+You will be writing your own keystroke logger.  You can use any programming language you choose.  The TAs and I have used Python.  Your requirements are:
+
+1.  Your program must write the keystrokes to a file.
+2.  Your program must timestamp each keypress.
+3.  Your code must be commented.
+
 # Pseudocode:
 Checks to see if it is run as root. This is needed for evtest and potential evtest installation.
 
@@ -19,12 +26,15 @@ Use a handler function to process the evtest outputs, appending only the desired
 
 Handler also adds a date to every line.
 
-# Requirements:
+# Script Requirements:
 - Linux, or maybe MacOS (untested)
 - Root/sudo (how dare linux securely protect raw inputs lol)
 - evtest installed
    - Otherwise must have apt, apt-get, yum, dnf, pacman, or brew
  - Not a vm (didn't seem to work in my testing)
+
+# Screenshots
+
 
 # Future TODO:
 - Non-evtest implementation to fully "live off the the land"
