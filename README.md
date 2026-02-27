@@ -53,3 +53,4 @@ Running the program, and typing `this is a TEST`, followed by a termination requ
 - Fully silent version, dumping outputs to null
 - Generate a more human readable text file on cleanup using logs
 - Option to have the logs saved to a remote location
+- Nix compat
