@@ -38,7 +38,7 @@ Running the program, and typing `this is a TEST`, followed by a termination requ
 
 ![Running](https://github.com/git-michaelkent/bash-keylogger/blob/main/screenshots/running.png)
 
-`cat` of the output file, showing captured keystrokes
+`cat` of the output file, showing some of the captured keystrokes
 
 ![Output](https://github.com/git-michaelkent/bash-keylogger/blob/main/screenshots/output.png)
 
